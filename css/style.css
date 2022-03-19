@@ -25,4 +25,31 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     color: var(--grayish-blue);
+    background-color: var(--very-light-gray);
+    line-height: 1.6;
+}
+
+.feature-header {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.feature-header h1 {
+    color: var(--very-dark-blue);
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+.feature-header span {
+    color: var(--grayish-blue)
+}
+
+.feature-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feature-card {
+    background-color: #fff;
 }
