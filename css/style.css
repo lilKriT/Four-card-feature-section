@@ -19,6 +19,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -26,19 +27,20 @@ body {
     font-size: 1.5rem;
     color: var(--grayish-blue);
     background-color: var(--very-light-gray);
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .feature-header {
     max-width: 500px;
-    margin: 50px auto;
-    text-align: center;
+    margin: 60px auto;
+    text-align: center
 }
 
 .feature-header h1 {
     color: var(--very-dark-blue);
     font-size: 3rem;
     line-height: 1.4;
+    margin: 0 auto;
 }
 
 .feature-header span {
@@ -64,4 +66,15 @@ body {
     border-radius: 15px;
     border-top: 2px solid red;
     padding: 2rem;
+    position: relative;
+}
+
+.feature-card::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
