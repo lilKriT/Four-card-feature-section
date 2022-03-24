@@ -73,7 +73,7 @@ body {
     content: "";
     height: 5px;
     width: 100%;
-    background-color: blue;
+    background-color: red;
     position: absolute;
     overflow: hidden;
     top: 0;
