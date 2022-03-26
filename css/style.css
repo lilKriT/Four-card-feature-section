@@ -1,82 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
-    --orange: hsl(34, 97%, 64%);
-    --blue: hsl(212, 86%, 64%);
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
 
-    --very-dark-blue: hsl(234, 12%, 34%);
-    --grayish-blue: hsl(229, 6%, 66%);
-    --very-light-gray: hsl(0, 0%, 98%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    color: var(--grayish-blue);
-    background-color: var(--very-light-gray);
-    line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: var(--grayish-blue);
+  background-color: var(--very-light-gray);
+  line-height: 1.4;
 }
 
 .feature-header {
-    max-width: 500px;
-    margin: 60px auto;
-    text-align: center
+  max-width: 500px;
+  margin: 60px auto;
+  text-align: center;
 }
 
 .feature-header h1 {
-    color: var(--very-dark-blue);
-    font-size: 3rem;
-    line-height: 1.4;
-    margin: 0 auto;
+  color: var(--very-dark-blue);
+  font-size: 3rem;
+  line-height: 1.4;
+  margin: 0 auto;
 }
 
 .feature-header span {
-    color: var(--grayish-blue)
+  color: var(--grayish-blue);
 }
 
 .feature-section {
-    
 }
 
 .feature-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1080px;
-    gap: 30px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1080px;
+  gap: 30px 30px;
 }
 
 .feature-card {
-    background-color: #fff;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    border-top: 2px solid red;
-    padding: 2rem;
-    position: relative;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  border-top: 2px solid red;
+  padding: 2rem;
+  position: relative;
 }
 
 .feature-card h2::after {
-    content: "";
-    height: 5px;
-    width: 100%;
-    background-color: red;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    border-radius: 15px;
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
 }
