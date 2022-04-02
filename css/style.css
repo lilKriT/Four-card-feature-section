@@ -32,19 +32,21 @@ body {
 
 .feature-header {
   max-width: 500px;
-  margin: 60px auto;
+  width: 100%;
+  margin: 7.1rem auto 0;
   text-align: center;
+  color: var(--very-dark-blue);
+  line-height: 4.3rem;
+  justify-content: center;
 }
 
-.feature-header h1 {
-  color: var(--very-dark-blue);
-  font-size: 3rem;
-  line-height: 1.4;
-  margin: 0 auto;
+h1 {
+  font-weight: 600;
+  font-size: 3.2rem;
 }
 
 .feature-header span {
-  color: var(--grayish-blue);
+  font-weight: 200;
 }
 
 .feature-section {
@@ -80,44 +82,8 @@ body {
   border-radius: 15px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-
-:root {
-  --body--font: "Poppins", sans-serif;
-  --light-gray: hsl(0, 0%, 98%);
-  --white: rgb(255, 255, 255);
-  --dark-blue: hsl(234, 12%, 34%);
-  --grayish-blue: hsl(229, 6%, 66%);
-  --cyan: hsl(180, 62%, 55%);
-  --red: hsl(0, 78%, 62%);
-  --orange: hsl(34, 97%, 64%);
-  --blue: hsl(212, 86%, 64%);
-  --box-shadow: 0px 12px 14px -10px hsla(212, 86%, 64%, 0.301);
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* this is from github */
-/** Feature Header**/
-.feature-header {
-  text-align: center;
-  color: var(--dark-blue);
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 5.3rem;
-  line-height: 3rem;
-  text-align: center;
-  justify-content: center;
-}
-h1 {
-  font-weight: 600;
-  font-size: 2.3rem;
-}
-.feature-header span {
-  font-weight: 200;
-}
+
 .feature-details {
   margin: 0 auto;
   text-align: center;
