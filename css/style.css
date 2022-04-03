@@ -31,7 +31,7 @@ body {
 }
 
 .feature-header {
-  max-width: 500px;
+  /* max-width: 500px; */
   width: 100%;
   margin: 7.1rem auto 0;
   text-align: center;
@@ -47,6 +47,20 @@ h1 {
 
 .feature-header span {
   font-weight: 200;
+}
+
+.feature-details {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+  width: 35%;
+}
+
+.feature-details p {
+  color: var(--grayish-blue);
+  line-height: 1.5;
+  word-spacing: -1px;
+  font-weight: 400;
 }
 
 .feature-section {
@@ -83,19 +97,6 @@ h1 {
 }
 
 /* this is from github */
-
-.feature-details {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 1.3rem;
-  width: 40%;
-}
-.feature-details p {
-  color: var(--grayish-blue);
-  line-height: 1.5rem;
-  word-spacing: -1px;
-  font-weight: 400;
-}
 
 /** Feature Cards **/
 .feature-cards {
