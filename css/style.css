@@ -84,47 +84,13 @@ h1 {
   position: relative;
 }
 
-.feature-card h2::after {
-  content: "";
-  height: 5px;
-  width: 100%;
-  background-color: red;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  border-radius: 15px;
+.feature-card h2 {
+  font-size: 1.8rem;
+  color: var(--very-dark-blue);
 }
 
 /* this is from github */
 
-/** Feature Cards **/
-.feature-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100% 100% 100%;
-  column-gap: 30px;
-  max-width: 69.375rem;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 3.8rem;
-}
-.card-one,
-.card-two,
-.card-three,
-.card-four {
-  background-color: var(--white);
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-}
-
-.card-info {
-  padding: 1.7rem 2.3rem;
-}
-.card-info h2 {
-  font-size: 1.2rem;
-  color: var(--dark-blue);
-}
 .card-info p {
   color: var(--grayish-blue);
   font-size: 13px;
