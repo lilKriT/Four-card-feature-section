@@ -89,44 +89,53 @@ h1 {
   color: var(--very-dark-blue);
 }
 
-/* this is from github */
-
-.card-info p {
+.feature-card p {
   color: var(--grayish-blue);
-  font-size: 13px;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.7;
   padding-top: 9px;
 }
+
+.feature-card-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.feature-card .icon-glass {
+  background-image: url("/img/icon-supervisor.svg");
+}
+
+.feature-card .icon-house {
+  background-image: url("/img/icon-team-builder.svg");
+}
+
+.feature-card .icon-light {
+  background-image: url("/img/icon-karma.svg");
+}
+
+.feature-card .icon-screen {
+  background-image: url("/img/icon-calculator.svg");
+}
+
+
+.icon-glass,
+.icon-house,
+.icon-light,
+.icon-screen {
+  height: 100%;
+  width: 100%;
+  min-height: 6.4rem;
+  max-width: 6.4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* this is from github */
+
 .card-icon {
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem 1.9rem;
-}
-/** Icon images **/
-.icon-1 {
-  background-image: url("images/icon-supervisor.svg");
-}
-
-.icon-2 {
-  background-image: url("images/icon-team-builder.svg");
-}
-.icon-3 {
-  background-image: url("images/icon-karma.svg");
-}
-
-.icon-4 {
-  background-image: url("images/icon-calculator.svg");
-}
-.icon-1,
-.icon-2,
-.icon-3,
-.icon-4 {
-  height: 100%;
-  min-height: 4rem;
-  width: 100%;
-  max-width: 4rem;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card-one,
