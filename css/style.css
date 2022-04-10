@@ -79,7 +79,8 @@ h1 {
   background-color: #fff;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  border-top: 5px solid red;
+  border-top-style: solid;
+  border-top-width: 5px;
   padding: 2rem;
   position: relative;
   display: flex;
@@ -134,21 +135,23 @@ h1 {
   background-size: cover;
 }
 
+.feature-teal {
+  border-color: var(--cyan)
+}
+
+.feature-red {
+  border-color: var(--red)
+}
+
+.feature-yellow {
+  border-color: var(--orange)
+}
+
+.feature-blue {
+  border-color: var(--blue)
+}
+
 /* this is from github */
-
-
-.card-one {
-  border-color: var(--cyan);
-}
-.card-two {
-  border-color: var(--red);
-}
-.card-three {
-  border-color: var(--orange);
-}
-.card-four {
-  border-color: var(--blue);
-}
 
 .card-one,
 .card-four,
