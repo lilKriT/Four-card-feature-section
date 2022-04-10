@@ -78,12 +78,13 @@ h1 {
 .feature-card {
   background-color: #fff;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  border-top: 2px solid red;
+  border-radius: 5px;
+  border-top: 5px solid red;
   padding: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 25rem;
 }
 
 .feature-card h2 {
@@ -121,7 +122,6 @@ h1 {
   background-image: url("/img/icon-calculator.svg");
 }
 
-
 .icon-glass,
 .icon-house,
 .icon-light,
@@ -136,16 +136,7 @@ h1 {
 
 /* this is from github */
 
-.card-one,
-.card-two,
-.card-three,
-.card-four {
-  border-top-style: solid;
-  border-top-width: 5px;
-  width: fit-content;
-  min-height: 15rem;
-  height: 30%;
-}
+
 .card-one {
   border-color: var(--cyan);
 }
