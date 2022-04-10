@@ -82,6 +82,8 @@ h1 {
   border-top: 2px solid red;
   padding: 2rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .feature-card h2 {
@@ -94,11 +96,13 @@ h1 {
   font-size: 1.3rem;
   line-height: 1.7;
   padding-top: 9px;
+  flex-grow: 1;
 }
 
 .feature-card-icon {
   display: flex;
   justify-content: flex-end;
+  padding: 1.1rem, 2.2rem;
 }
 
 .feature-card .icon-glass {
@@ -131,12 +135,6 @@ h1 {
 }
 
 /* this is from github */
-
-.card-icon {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem 1.9rem;
-}
 
 .card-one,
 .card-two,
