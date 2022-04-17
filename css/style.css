@@ -169,7 +169,7 @@ h1 {
 }
 
 /* Responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .feature-header {
     width: 90%;
   }
@@ -179,27 +179,28 @@ h1 {
   }
 
   .feature-cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     width: 90%;
   }
-
-  .feature-card {
+  
+  .feature-card:nth-child(n) {
     min-height: 20rem;
-  }
-
-  .feature-card:nth-child(3n + 1) {
-    grid-column: auto;
-  }
-
-  .feature-card:nth-child(3n + 2) {
     grid-column: auto;
     top: 0;
   }
+  
+    .feature-card:nth-child(2n) {
+      top: 8rem;
+    }
+}
 
-  .feature-card:nth-child(3n) {
-    grid-column: 1;
-    position: relative;
+@media screen and (max-width: 768px) {
+  .feature-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card:nth-child(n) {
     top: 0;
   }
 }
