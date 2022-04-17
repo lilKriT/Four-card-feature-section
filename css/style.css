@@ -125,19 +125,19 @@ h1 {
 }
 
 .feature-card .icon-glass {
-  background-image: url("/img/icon-supervisor.svg");
+  background-image: url("../img/icon-supervisor.svg");
 }
 
 .feature-card .icon-house {
-  background-image: url("/img/icon-team-builder.svg");
+  background-image: url("../img/icon-team-builder.svg");
 }
 
 .feature-card .icon-light {
-  background-image: url("/img/icon-karma.svg");
+  background-image: url("../img/icon-karma.svg");
 }
 
 .feature-card .icon-screen {
-  background-image: url("/img/icon-calculator.svg");
+  background-image: url("../img/icon-calculator.svg");
 }
 
 .icon-glass,
