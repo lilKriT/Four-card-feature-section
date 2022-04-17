@@ -125,7 +125,7 @@ h1 {
 }
 
 .feature-card .icon-glass {
-  background-image: url("/img/icon-supervisor.svg");
+  background-image: url("../img/icon-supervisor.svg");
 }
 
 .feature-card .icon-house {
