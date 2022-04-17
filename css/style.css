@@ -70,7 +70,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  margin: 5rem auto 0;
+  margin: 5rem auto 5rem;
   max-width: 1080px;
   gap: 30px 30px;
   grid-auto-flow: column;
@@ -170,9 +170,22 @@ h1 {
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
+  .feature-header {
+    width: 90%;
+  }
+
+  .feature-details {
+    width: 100%;
+  }
+
   .feature-cards {
     grid-template-columns: 1fr;
     grid-auto-flow: row;
+    width: 90%;
+  }
+
+  .feature-card {
+    min-height: 20rem;
   }
 
   .feature-card:nth-child(3n + 1) {
